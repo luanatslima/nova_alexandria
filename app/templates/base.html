@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Alexandria{% endblock title %}</title>
+    <link rel="stylesheet" href="{ static 'style.css'}">
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}">Início</a>
+    </nav>
+    <header>
+        {% block content %}
+        {% endblock content %}
+    </header>
+    <footer>
+        <h5>&copy; 2024 Alexandria: A Biblioteca Virtual</h5>
+    </footer>
+</body>
+</html>
