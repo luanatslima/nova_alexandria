@@ -1,11 +1,16 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}Index{% endblock %}
+
 {% block content %}
-<style>
-    body{
-        background-image: url("{% static 'img/foto_fundo.jpg' %}");
-        
-    }
-</style>
+
+<nav>
+    <img src="{% static 'img/logo.png' %}" class="logo">
+    <div class="search-container">
+      <span class="search-icon"><img src="{% static 'img/lupa.png' %}" class="lupa"></span>
+      <input type="text" class="search-input" placeholder="Campo de Busca">
+    </div>
+</nav>
+
+
 {% endblock content %}
