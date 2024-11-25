@@ -1,14 +1,37 @@
-body{
-    background-color: rgb(196, 192, 138);
+html{
+    background-image: url(img/foto_fundo.jpg);
+    display: block;
+    padding-top: 40px;
+    padding-left: 10px;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+footer{
+    color: #ffffffdc;
+    
+}
+
+a{
+    color: #ffffffdc;
+    font-family: Georgia;
+    text-decoration: none;
+    padding-left: 60px;
+    
 }
 
 .lupa{
     padding-top: 6px;
-    height: 24px;
+    height: 28px;
 }
 
 .logo{
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 17px;
+    padding-bottom: 15px;
     height: 70px;
     
 }
@@ -29,9 +52,9 @@ body{
   
 .search-input {
     width: 100%;
-    padding: 17px 10px 13px 80px; /* Ajuste do padding para o ícone */
+    padding: 17px 10px 13px 120px; /* Ajuste do padding para o ícone */
     border: 1px solid #ccc;
-    border-radius: 13px; /* Deixa as bordas arredondadas */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
     font-size: 16px;
     color: #555;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
