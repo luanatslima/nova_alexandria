@@ -14,3 +14,6 @@ def sobre_nos(request):
 
 def configuracoes(request):
     return render(request, "configuracoes.html")
+
+def conteudos(request):
+    return render(request, "conteudos.html")

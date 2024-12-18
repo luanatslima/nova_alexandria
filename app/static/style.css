@@ -67,9 +67,23 @@ a{
 .busca-input::placeholder {
     color: #aaa;
 }
-  
+
 header{
-    padding-top: 270px;
-    padding-left: 500px;
+    padding-top: 320px;
+    padding-left: 420px;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 135px;
+    padding-top: 20px;
+}
+
+.publicacao{
+    background-color: #3c6432;
+    border-radius: 10px;
+}
